@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    display: flex;
+}
+.header-content1{
+    width: 50%;
+    margin: 100px;
+}
+.header-content1 h1{
+    font-size: 100px;
+}
+.header-content1 .sp1{
+    color: rgb(235, 129, 8);
+}
+.header-content1 .sp2{
+    color: rgb(153, 231, 52);
+}
+.header-content1 h4{
+    font-size: 30px;
+    margin: 40px 0;
+}
+.header-content1 p{
+    font-size: 25px;
+}
+.header-content1 a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(rgb(255, 124, 2), rgb(255, 72, 0));
+    padding: 15px 30px;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.header-content2{
+    width: 50%;
+    margin: 100px 0 100px 100px;
+}
+.header-content2 img{
+    width: 90%;
+}
+
+.middle{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-content1{
+    width: 50%;
+}
+.middle-content2{
+    width: 50%;
+    margin-right: 100px;
+}
+.middle-content2 img{
+    width: 90%;
+}
+.middle-content2 a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(rgb(255, 124, 2), rgb(255, 72, 0));
+    padding: 15px 30px;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.middle-content2 p, p{
+    font-size: 25px;
+}
+.middle-content2 h1, h1{
+    font-size: 100px;
+}
+.middle-content2 h4, h4{
+    font-size: 30px;
+    margin: 40px 0;
+}
+.footer{
+    display: flex;
+    margin: 100px 0;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer-content2{
+    width: 40%;
+    border-left: 8px solid;
+    border-image: linear-gradient(
+        180deg, lightsalmon, tomato);
+    margin-left: 100px;
+    border-image-slice: 1;
+    box-shadow: 0 0 20px 15px rgb(218, 218, 218);
+}
+.footer-content2 h1, .footer-content2 h4, .footer-content2 p{
+    margin-left: 30px;
+}
+.right{
+    background: rgb(207, 207, 207);
+    padding: 20px 0;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+.jj{
+    text-align: center;
+}
+.jj a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(129, 129, 129);
+    border-left: 2px solid black;
+    display: inline-block;
+    padding: 0 20px;
+    transition: .5s;
+}
+.jj a:last-child{
+    border-right: 2px solid black;
+}
+.jj a:hover{
+    color: black;
+}
