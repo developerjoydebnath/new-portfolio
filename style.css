@@ -102,6 +102,10 @@ body{
     border-image-slice: 1;
     box-shadow: 0 0 20px 15px rgb(218, 218, 218);
 }
+.footer-content2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 .footer-content2 h1, .footer-content2 h4, .footer-content2 p{
     margin-left: 30px;
 }
